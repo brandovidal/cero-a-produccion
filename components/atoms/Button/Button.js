@@ -7,8 +7,7 @@ import './Button.css';
 const Button = ({ type, children }) => (
 <button className={classNames('button', {
     [`type-${type}`]: type
-})}>{children}</button>
-);
+})}>{children}</button>);
 
 Button.propTypes = {
     children: PropTypes.node.isRequired,
