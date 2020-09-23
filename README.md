@@ -10,6 +10,9 @@
 - Create tokens.js file
 - Create script to tranform the tokens into custom properties
 ### Atoms & Molecules [Components]
+- Create Paragraph Atom
+- Create Button Molecule
+- Create Heading Atom
 ### Redux configuration [Web]
 ### Lint and styling [Components, Web]
 ### Folder Structure [Web]
