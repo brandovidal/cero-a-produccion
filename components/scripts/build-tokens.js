@@ -20,7 +20,7 @@ function transformTokens(parentKey, object) {
     }, '');
 }
 
-function buildCustomProperties() {
+function buildTokens() {
     const customProperties = `${transformTokens(null, choices)}${transformTokens(null, decisions)}`;
 
     const data = [":root {", customProperties.trim()].join("\n\t").concat("\n}");
@@ -31,4 +31,4 @@ function buildCustomProperties() {
         }
     });
 }
-buildCustomProperties();
+buildTokens();
