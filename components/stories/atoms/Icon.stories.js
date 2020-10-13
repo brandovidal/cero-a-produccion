@@ -6,4 +6,4 @@ export default {
     component: Icon
 };
 
-export const Default = () => <Icon type="arrow-right"></Icon>
+export const Default = () => <Icon type="arrowRight"></Icon>
