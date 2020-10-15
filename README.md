@@ -9,10 +9,14 @@
 ### Design Tokens [Components]
 - Create tokens.js file
 - Create script to tranform the tokens into custom properties
+- Add brand colors to tokens*
 ### Atoms & Molecules [Components]
 - Create Paragraph Atom
-- Create Button Molecule
+- Create Button Atom
 - Create Heading Atom
+- Create Icon Atom
+- Create Picture Atom*
+- Create ButtonIcon Molecule
 ### Redux configuration [Web]
 ### Lint and styling [Components, Web]
 ### Folder Structure [Web]

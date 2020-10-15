@@ -7,21 +7,21 @@ import Icon from '../../atoms/Icon'
 import './ButtonIcon.css'
 
 const ButtonIcon = ({ children, type, icon }) => (
-    <Button type={type}>
-        <span style={{ marginRight: 18}}>{children}</span>
-        {/* FIXME. Add vertical spacer component */}
-        <Icon type={icon} />
-    </Button>
+  <Button type={type}>
+    <span style={{ marginRight: 18 }}>{children}</span>
+    {/* FIXME. Add vertical spacer component */}
+    <Icon type={icon} />
+  </Button>
 )
 
 ButtonIcon.propTypes = {
-    children: PropTypes.node.isRequired,
-    icon: PropTypes.string.isRequired,
-    type: PropTypes.oneOf(['primary', 'secondary', 'tertiary'])
+  children: PropTypes.node.isRequired,
+  icon: PropTypes.string.isRequired,
+  type: PropTypes.oneOf(['primary', 'secondary', 'tertiary']),
 }
 
 ButtonIcon.defaultProps = {
-    type: 'secondary'
+  type: 'secondary',
 }
 
 export default ButtonIcon
