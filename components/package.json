@@ -29,5 +29,13 @@
     "prettier": "^2.1.2",
     "react-is": "^16.13.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  }
 }
