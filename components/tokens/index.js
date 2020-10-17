@@ -2,9 +2,14 @@ const choices = {
   colors: {
     brand: {
       mediumPurple: '#9879e9',
-      white: '#fff',
+      mandy: '#eb4e58',
       whiteLilac: '#e8e8e8',
+      hintOfRead: '#f9f9f9',
+      romance: '#fcfdfd',
       eastBay: '#455970',
+      regentGray: '#7e858c',
+      loblolly: '#b7b7b7',
+      blueMoon: '#eff1fd',
     },
 
     transparent: 'transparent',
@@ -245,7 +250,7 @@ const choices = {
     none: '0',
     sm: '0.125rem',
     md: '0.25rem',
-    lg: '0.5rem',
+    lg: '30px',
     full: '9999px',
   },
   zIndex: {
@@ -262,7 +267,18 @@ const choices = {
 const decisions = {
   colors: {
     primary: choices.colors.brand.mediumPurple,
+    primaryHighlight: choices.colors.brand.blueMoon,
+    secondary: choices.colors.brand.mandy,
+    fontBase: choices.colors.brand.eastBay,
+    fontMuted: choices.colors.brand.regentGray,
+    fontHighlight: choices.colors.brand.loblolly,
   },
+  backgrounds: {
+    primary: choices.colors.brand.hintOfRead,
+    highlight: choices.colors.brand.romance,
+  },
+  // TODO: Add container maxWidth decision
+  // TODO: Add mediaQueries decision
 }
 
 module.exports = { choices, decisions }

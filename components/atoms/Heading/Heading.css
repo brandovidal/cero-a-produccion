@@ -2,10 +2,10 @@
     line-height: 1.25;
 }
 .color-default {
-    color: var(--east-bay);
+    color: var(--colors-font-base);
 }
 .color-primary {
-    color: var(--medium-purple);
+    color: var(--colors-primary);
 }
 .size-md {
     font-size: 21px;

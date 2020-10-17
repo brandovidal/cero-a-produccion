@@ -18,7 +18,15 @@
 - Create Picture Atom*
 - Create ButtonIcon Molecule
 ### Redux configuration [Web]
+- Create ButtonIcon Molecule
+- Create Spacer's Layout
 ### Lint and styling [Components, Web]
+- Add a modified version of [EditorConfig](https://github.com/airbnb/javascript/blob/master/.editorconfig)
+1. Install ESLint and create a config file following the instructions [here](https://eslint.org/docs/user-guide/getting-started#installation-and-usage)
+2. Install Prettier `yarn add --dev prettier`
+3. Install the prettier configuration along ESLint following [these](https://github.com/prettier/eslint-plugin-prettier#recommended-configuration) instructions
+4. Finally configure the precommit hook with lint-staged [here](https://prettier.io/docs/en/precommit.html#option-1-lint-stagedhttpsgithubcomokonetlint-staged)
+5. TODO: Configure stylelint
 ### Folder Structure [Web]
 ### Environment variables [Web]
 
