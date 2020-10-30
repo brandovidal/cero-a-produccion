@@ -207,4 +207,5 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,archlinuxpackages,macos,node,visualstudiocode
 
 package-lock.json
+# !Icon
 !atoms/Icon
