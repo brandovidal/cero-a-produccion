@@ -6,4 +6,6 @@ export default {
   component: Input,
 }
 
-export const Primary = () => <Input type="text" placeholder="Nombres" />
+export const Primary = () => (
+  <Input onChange={() => {}} type="text" placeholder="Nombres" />
+)
