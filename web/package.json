@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@brandovidal/components": "^0.1.1",
+    "@brandovidal/components": "0.1.2",
     "next": "10.0.3",
     "next-transpile-modules": "^4.1.0",
     "react": "17.0.1",
