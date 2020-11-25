@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import Button from '../../atoms/Button'
 import Icon from '../../atoms/Icon'
 
-import './ButtonIcon.css'
+// import styles from './ButtonIcon.module.css'
 
 const ButtonIcon = ({ children, type, icon }) => (
   <Button type={type}>
