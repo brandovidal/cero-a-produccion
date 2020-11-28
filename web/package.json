@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@brandovidal/components": "0.1.2",
+    "minireset.css": "0.0.6",
     "next": "10.0.3",
     "next-transpile-modules": "^4.1.0",
     "react": "17.0.1",

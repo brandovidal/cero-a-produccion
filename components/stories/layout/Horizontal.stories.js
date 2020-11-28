@@ -2,14 +2,15 @@ import React from 'react'
 import Spacer from '../../layout/Spacer'
 
 export default {
-  title: 'Layout/Spacer/default',
+  title: 'Layout/Spacer/Horizontal',
   component: Spacer,
   args: {
     isVisible: true,
   },
 }
 
-const Template = (props) => <Spacer {...props} />
+const Template = (props) => <Spacer.Horizontal {...props} />
+
 export const Default = Template.bind({})
 
 export const ExtraSmall = Template.bind({})

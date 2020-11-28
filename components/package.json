@@ -30,7 +30,10 @@
     "prettier": "^2.1.2",
     "react-is": "^16.13.1"
   },
-  "dependencies": {},
+  "peerDependencies": {
+    "react": "17.0.1",
+    "minireset.css": "0.0.6"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
