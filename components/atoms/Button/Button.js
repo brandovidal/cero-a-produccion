@@ -20,7 +20,7 @@ Button.propTypes = {
   children: PropTypes.node.isRequired,
   type: PropTypes.oneOf(['primary', 'secondary', 'tertiary']),
   onClick: PropTypes.func,
-  isBlock: PropTypes.bool,
+  isBlock: PropTypes.boolean,
 }
 
 Button.defaultProps = {
