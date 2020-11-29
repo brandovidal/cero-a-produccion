@@ -1,6 +1,6 @@
 async function supportCssModules(config) {
   config.module.rules.find(
-    (rule) => rule.test.toString() === /\\.css$/
+    (rule) => rule.test.toString() === '/\\.css$/'
   ).exclude = /\.module\.css$/
 
   config.module.rules.push({

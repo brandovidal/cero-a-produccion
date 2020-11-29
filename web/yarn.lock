@@ -90,10 +90,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@brandovidal/components@0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@brandovidal/components/-/components-0.1.2.tgz#83b5c8e61611e33a878d686d8a8f2380aec15de6"
-  integrity sha512-OpXKCW0TMgbMP697iHF7rpQ/8CB+LcRuvymEl15O1F4uOMGIsAZd3jPh2Dwxz8KwG3AQHzlpNhbTGhF72AUQ4g==
+"@brandovidal/components@0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@brandovidal/components/-/components-0.1.3.tgz#428810166fce0052f311f7c9599cde3574f724ce"
+  integrity sha512-EycaGLk7mCUyIU+d3plHHW64rqpRx/pVvHDcvnOccsKYdX1CyDUa71k8otHiV0w8JD0THSelexSO3S0UCRmSlw==
 
 "@hapi/accept@5.0.1":
   version "5.0.1"

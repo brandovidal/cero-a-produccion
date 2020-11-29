@@ -24,11 +24,29 @@ export const Colors = () => (
 
 export const Sizes = () => (
   <>
-    <Heading size="xs">Extra Small Size</Heading>
-    <Heading size="xs">Small Size</Heading>
-    <Heading size="md">Medium Size</Heading>
-    <Heading size="lg">Large Size</Heading>
-    <Heading size="xl">Extra Large Size</Heading>
-    <Heading size="2xl">Double Extra Large Size</Heading>
+    <Heading size="xs">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja. 1234567890
+    </Heading>
+    <Heading size="sm">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja. 1234567890
+    </Heading>
+    <Heading size="md">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja. 1234567890
+    </Heading>
+    <Heading size="lg">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja. 1234567890
+    </Heading>
+    <Heading size="xl">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja. 1234567890
+    </Heading>
+    <Heading size="2xl">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja. 1234567890
+    </Heading>
   </>
 )

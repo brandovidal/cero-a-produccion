@@ -26,7 +26,7 @@ Vertical.defaultProps = {
 Vertical.propTypes = {
   size: PropTypes.number.isRequired,
   isVisible: PropTypes.bool,
-  maxHeight: PropTypes.oneOf([PropTypes.number, PropTypes.string]),
+  maxHeight: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 }
 
 export default Vertical
